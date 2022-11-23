@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <!--header start---------->
+         <header>
+        <div class="index-container">
+            <div class="index-logo">
+                <h1>VM</h1>
+    
+            </div>
+            <div class="navbar">
+                
+                <ul>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about_us.html">About </a></li>
+                <li><a href="activity.html">Activity </a></li>
+                <li><a href="blog.html">Blog </a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+          </header>  
+        <!--header ended------------------->
+
+ <!-- Content Start -->
+
+ <div class="section-blogs">
+    <div class="blog">
+        <div class="blog-title">
+            <img src="https://c.ndtvimg.com/2021-11/fcbadjs8_rohit-sharma-afp_625x300_18_November_21.jpg?im=FaceCrop,algorithm=dnn,width=240,height=180?downsize=100:*" alt="autor1" />
+            <h1>BLOG 1</h1>
+        </div>
+
+        <div class="blog-author">
+            <i class="fa-solid fa-user"></i>
+            <span>Posted By <strong>Meet Patel</strong> |
+                <span id="date1" class="date"></span></span>
+        </div>
+
+        <div class="blog-text">
+            <span class="static">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique saepe totam necessitatibus officiis dolore temporibus
+                officia quas, consequatur porro, odit quo nulla, eligendi
+                consectetur dolor delectus nam ducimus? Ut similique expedita
+                architecto.</span>
+            <span class="dynamic read-less">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores unde quia dolorum tenetur! Nihil est quae possimus amet
+                corrupti accusamus animi ullam saepe, sint aliquid, eos
+                consequatur nobis. Eos delectus excepturi reiciendis ea quaerat,
+                quo veniam sunt voluptates, doloremque voluptas voluptatibus
+                commodi accusantium tempora cum consequatur esse dolor
+                perspiciatis veritatis!</span>
+        </div>
+
+        <div class="blog-control">
+            <button onclick="readMoreLess(this)">Read More</button>
+        </div>
+    </div>
+
+    <div class="blog">
+        <div class="blog-title">
+            <img src="https://static.toiimg.com/thumb/msid-92771506,imgsize-29010,width-400,resizemode-4/92771506.jpg" alt="autor2" />
+            <h1>BLOG 2</h1>
+        </div>
+
+        <div class="blog-author">
+            <i class="fa-solid fa-user"></i>
+            <span>Posted By <strong>Kevin Patel</strong> |
+                <span id="date1" class="date"></span></span>
+        </div>
+
+        <div class="blog-text">
+            <span class="static">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique saepe totam necessitatibus officiis dolore temporibus
+                officia quas, consequatur porro, odit quo nulla, eligendi
+                consectetur dolor delectus nam ducimus? Ut similique expedita
+                architecto.</span>
+            <span class="dynamic read-less">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores unde quia dolorum tenetur! Nihil est quae possimus amet
+                corrupti accusamus animi ullam saepe, sint aliquid, eos
+                consequatur nobis. Eos delectus excepturi reiciendis ea quaerat,
+                quo veniam sunt voluptates, doloremque voluptas voluptatibus
+                commodi accusantium tempora cum consequatur esse dolor
+                perspiciatis veritatis!</span>
+        </div>
+
+        <div class="blog-control">
+            <button onclick="readMoreLess(this)">Read More</button>
+        </div>
+    </div>
+
+    <div class="blog">
+        <div class="blog-title">
+            <img src="https://pbs.twimg.com/profile_images/1503680672292081668/BFab2nla_400x400.jpg" alt="autor3" />
+            <h1>BLOG 3</h1>
+        </div>
+
+        <div class="blog-author">
+            <i class="fa-solid fa-user"></i>
+            <span>Posted By <strong>Mohit Patel</strong> |
+                <span id="date1" class="date"></span></span>
+        </div>
+
+        <div class="blog-text">
+            <span class="static">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique saepe totam necessitatibus officiis dolore temporibus
+                officia quas, consequatur porro, odit quo nulla, eligendi
+                consectetur dolor delectus nam ducimus? Ut similique expedita
+                architecto.</span>
+            <span class="dynamic read-less">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores unde quia dolorum tenetur! Nihil est quae possimus amet
+                corrupti accusamus animi ullam saepe, sint aliquid, eos
+                consequatur nobis. Eos delectus excepturi reiciendis ea quaerat,
+                quo veniam sunt voluptates, doloremque voluptas voluptatibus
+                commodi accusantium tempora cum consequatur esse dolor
+                perspiciatis veritatis!</span>
+        </div>
+
+        <div class="blog-control">
+            <button onclick="readMoreLess(this)">Read More</button>
+        </div>
+    </div>
+     
+    <div class="blog">
+        <div class="blog-title">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/5c7d7829a7ea434b351ba0b6/0x0.jpg?format=jpg&crop=1837,1839,x206,y250,safe&height=416&width=416&fit=bounds" alt="autor4" />
+            <h1>BLOG 4</h1>
+        </div>
+
+        <div class="blog-author">
+            <i class="fa-solid fa-user"></i>
+            <span>Posted By <strong>Ram Thakor</strong> |
+                <span id="date1" class="date"></span></span>
+        </div>
+
+        <div class="blog-text">
+            <span class="static">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique saepe totam necessitatibus officiis dolore temporibus
+                officia quas, consequatur porro, odit quo nulla, eligendi
+                consectetur dolor delectus nam ducimus? Ut similique expedita
+                architecto.</span>
+            <span class="dynamic read-less">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores unde quia dolorum tenetur! Nihil est quae possimus amet
+                corrupti accusamus animi ullam saepe, sint aliquid, eos
+                consequatur nobis. Eos delectus excepturi reiciendis ea quaerat,
+                quo veniam sunt voluptates, doloremque voluptas voluptatibus
+                commodi accusantium tempora cum consequatur esse dolor
+                perspiciatis veritatis!</span>
+        </div>
+
+        <div class="blog-control">
+            <button onclick="readMoreLess(this)">Read More</button>
+        </div>
+    </div>
+</div>
+
+<!-- Content Ends -->
+
+<!--footer start-->
+<footer>
+    <div class="footer">
+      <div class="company-address">
+        <h4>Company</h4>
+      <div class="line3">
+
+      </div>
+      
+          <p>
+          O-1202,Vir Sawarkar Heights-1,<br>
+          Vasantnagar Township,<br>
+          Gota-Ognaj Road,<br>
+          Ahmedabad, Gujarat,382481<br>
+          </p>
+          
+       </div>
+
+    <div class="natigate">
+        <h4>Natigate</h4>
+
+        <div class="line3">
+
+        </div>
+
+        <ul>
+        <li><a href="index.html"><h4>Home</h4></a></li>
+        <li><a href="about_us.html"><h4>About</h4></a></li>
+        <li><a href="activity.html"><h4>Activity</h4></a></li>
+        <li><a href="blog.html"><h4>Blog</h4> </a></li>
+        <li><a href="project.html"><h4>Project</h4></a></li>
+        <li><a href="contact.html"><h4>Contact</h4> </a></li>
+        </ul>
+        
+    </div>
+
+    <div class="follow-me">
+        <h4>Follow Me</h4>
+        <div class="line3">   </div>
+                 
+             
+                 <a href="https://www.facebook.com/" >
+                      <i class="fa-brands fa-facebook-square fa-1x"></i></a>
+           
+                <a href="https://www.instagram.com/?hl=en">
+                    <i class="fa-brands fa-instagram-square fa-1x"></i></a>
+                    
+                <a href="https://twitter.com/home"> 
+                    <i class="fa-brands fa-twitter-square fa-1x"></i></a>
+                    
+                <br>
+            
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                     <i  class="fa-solid fa-envelope-circle-check fa-1x"></i>
+                     </a>
+                     <h2>EMAIL</h2>
+                     <p>meetvaghasiya66@gmail.com</p>
+               
+                <i class="fas fa-square-phone fa-2x"></i>
+                <h2>PHONE</h2>
+                     <p>+91 9328280157</p>
+    </div><br>
+
+    <div class="copyrights">
+        <p>Copyright © 2022 Reserved By Meet Vaghasiya</p>
+    </div>
+    </div>
+   
+</footer>
+<!--footer ended-->
+
+    <script src="blog.js"></script>
+    
+</body>
+</html>

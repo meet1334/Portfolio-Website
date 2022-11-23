@@ -1,0 +1,197 @@
+.index-container{
+    color: red;
+    background-color: black;
+    font-size: 5px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+.navbar{
+        color:white;
+        font-size:20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction:row;
+    }
+    
+.navbar ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 15px;
+    }
+    
+.navbar a{
+        text-decoration: none;
+    }
+    
+ a{
+        color: aliceblue;
+        padding: 0%;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+.index-logo{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+        
+.index-body{
+    background-color: white;
+    width:100vw;
+    height: 100vh;
+    }
+
+.main{
+    color: black;
+
+}
+/* Content Start */
+
+.section-blogs {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-block: 1rem;
+    /* margin-block: 1rem; */
+}
+
+.blog {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5rem;
+    background-color: white;
+    color:black;
+}
+
+.blog:nth-child(even) {
+    background-color: white;
+    color:black;
+}
+
+.blog-title {
+    display: flex;
+    align-items: center;
+}
+
+.blog-title>img {
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+    width: 50px;
+}
+
+.blog-author {
+    margin-block: 1rem;
+}
+
+.blog-text {
+    text-align: justify;
+    margin-block: 1rem;
+}
+
+.blog-control>button {
+    padding: 0.5rem 1rem;
+    background-color:white;
+    cursor: pointer;
+}
+
+.read-less {
+    display: none;
+}
+
+/* Content Ends */
+
+/* footer starts */
+.footer{
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    color:white; 
+    background-color: black;
+    font-size: 15px;
+}    
+
+.company-address{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    width: 60%; */
+    align-items: center;
+    font-size: 15px;
+    margin-left: 10%;
+
+
+
+}
+.company-address p{
+    margin-left: 10%;
+    
+
+}
+
+.line3{
+    height: 2px;
+    width: 4rem;
+    background-color:darkorange;
+    display: block;
+    margin: 0.5rem;
+
+}
+
+.natigate{
+    align-items: center;
+    font-size: 15px;
+    margin-left: 30%;
+
+}
+.natigate h4{
+    font-size: 15px;
+}
+.natigate ul{
+    list-style-type: none;
+    
+}
+.natigate a{
+    text-decoration: none;
+}
+.follow-me{
+    margin-left: 40%;
+    
+}
+.follow-me i{
+    padding: 2%;
+    padding-top:7%;
+}
+/* .follow-me ul{
+        list-style-type: none;
+        display: inline-block;
+        padding: 15px;    
+    }
+.line3 h3{
+    padding-left: 10%;
+    
+} */
+.line3 ul{
+    padding-top:3rem;
+}
+.copyright{
+    color:white; 
+    background-color: black;
+    margin-bottom: 10%;
+    padding-left: 10%;
+}
+/* footer ended */

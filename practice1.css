@@ -1,0 +1,22 @@
+.main{
+
+height: 80px;
+width: 100px;
+background-color: black;
+border-radius: 80%;
+}
+/* .main > a:hover{
+
+} */
+ .fa-solid {
+    align-items: center;
+    margin: 28px;
+    /*justify-content: center;*/
+}
+
+.main:hover{
+    background-color:orange;
+    height: 80px;
+    width: 100px;
+    border-radius: 80%;
+}
